@@ -34,7 +34,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       // Define the URL of your Node.js backend API
-      const apiUrl = 'http://localhost:5000/'; // Change this to your actual API endpoint
+      const apiUrl = 'https://backend-d84x.onrender.com/'; // Change this to your actual API endpoint
 
       // Create the data to send in the POST request
       const postData = { input_text: itemName };
